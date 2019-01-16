@@ -439,7 +439,7 @@
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/lowpan" name="platform/frameworks/opt/net/lowpan" groups="pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <!--project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" /-->
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" /-->
@@ -449,8 +449,8 @@
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <!--project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" /-->
+  <!--project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" /-->
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
@@ -479,11 +479,11 @@
   <!--project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" /-->
   <!--project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" /-->
   <!--project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" /-->
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" />
+  <!--project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" /-->
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" />
   <!--project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk-qcom,qcom,qcom_display" /-->
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
+  <!--project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" /-->
+  <!--project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" /-->
   <!--project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" /-->
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk-qcom" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk-qcom" />
@@ -494,7 +494,7 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk-qcom" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk-qcom" />
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" />
+  <!--project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" /-->
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />

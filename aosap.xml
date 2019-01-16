@@ -44,7 +44,7 @@
 
   <!-- Vendor -->
   <project path="vendor/aosap" name="platform_vendor_aosap" remote="aosap" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="aosap" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosap" />
 
   <!-- Sepolicy -->
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosap" />
