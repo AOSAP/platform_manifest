@@ -52,4 +52,8 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosap" />
   <project path="device/aosap/sepolicy" name="device_aosap_sepolicy" remote="aosap" />
 
+  <!-- External -->
+  <project path="external/perfetto" name="platform_external_perfetto" remote="aosap" />
+  <project path="external/selinux" name="platform_external_selinux" remote="aosap" />
+
 </manifest>
