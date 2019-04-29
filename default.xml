@@ -21,6 +21,9 @@
            fetch="https://github.com/AOSAP-Devices"
 	   revision="pie" />
 
+  <remote  name="github"
+	   fetch="https://github.com/" />
+
   <!--project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
