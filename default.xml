@@ -16,6 +16,11 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-16.0" />
 
+
+  <remote  name="aosap-d"
+           fetch="https://github.com/AOSAP-Devices"
+	   revision="pie" />
+
   <!--project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
