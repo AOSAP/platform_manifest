@@ -43,6 +43,7 @@
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="aosap" />
+  <project path="system/vold" name="platform_system_vold" remote="aosap" />
 
   <!-- Vendor -->
   <project path="vendor/aosap" name="platform_vendor_aosap" remote="aosap" />
