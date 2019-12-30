@@ -45,6 +45,13 @@
 
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosap" />
 
+<!-- Device -->
+
+  <project path="device/aosap/sepolicy" name="platform_device_aosap_sepolicy" remote="aosap" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aosap" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="aosap" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="aosap" />
+
 <!-- Misc. -->
 
   <project path="bionic" name="platform_bionic" remote="aosap" />
