@@ -9,7 +9,8 @@
            sync-j="4" />
 
   <remote name="aosap"
-           fetch="https://github.com/AOSAP/" />
+           fetch="https://github.com/AOSAP/" 
+           revision="ten" />
 
   <remote  name="github"
            fetch="https://github.com/" />
