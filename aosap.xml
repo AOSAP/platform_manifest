@@ -54,6 +54,11 @@
   <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="aosap" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="aosap" />
 
+<!-- Hardware -->
+
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosap" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosap" />
+
 <!-- Misc. -->
 
   <project path="bionic" name="platform_bionic" remote="aosap" />
