@@ -8,6 +8,15 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote name="aosap"
+           fetch="https://github.com/AOSAP/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -782,5 +791,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <include name="aosap.xml" />
 
 </manifest>
