@@ -18,6 +18,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="build/blueprint" name="platform_build_blueprint" remote="aosap" />
+
 <!-- System -->
 
   <project path="system/core" name="platform_system_core" remote="aosap" />
