@@ -797,8 +797,10 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <include name="aosap.xml" />
+  <!-- Add some LineageOS repos -->
+  <include name="snippets/aosap.xml" />
 
-  <include name="los.xml" />
+  <!-- Add some LineageOS repos -->
+  <include name="snippets/los.xml" />
 
 </manifest>
