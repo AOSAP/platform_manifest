@@ -22,6 +22,7 @@
 
 <!-- System -->
 
+  <project path="system/update_engine" name="platform_system_update_engine" remote="aosap" />
   <project path="system/core" name="platform_system_core" remote="aosap" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosap" />
   <project path="system/vold" name="platform_system_vold" remote="aosap" />
