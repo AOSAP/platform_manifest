@@ -72,5 +72,6 @@
   <project path="bionic" name="platform_bionic" remote="aosap" />
   <project path="platform_testing" name="platform_platform_testing" remote="aosap" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosap" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosap" />
 
 </manifest>
