@@ -34,6 +34,7 @@
   <project path="vendor/support" name="platform_vendor_support" remote="aosap" />
   <project path="vendor/themes" name="platform_vendor_themes" remote="aosap" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="aosap" />
+  <project path="vendor/gapps" name="PixysOS/vendor_gapps" remote="gitlab" revision="ten" />
 
 <!-- Frameworks -->
 
