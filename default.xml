@@ -29,6 +29,10 @@
            fetch="https://github.com/ArrowOS/"
            revision="refs/heads/arrow-11.0" />
 
+  <remote  name="bb"
+           fetch="https://bitbucket.org/mracar07"
+           revision="eleven" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

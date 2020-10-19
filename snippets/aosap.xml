@@ -59,6 +59,7 @@
   <project path="external/json-c" name="platform_external_json-c" remote="aosap" />
   <project path="external/selinux" name="platform_external_selinux" remote="aosap" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosap" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="bb" />
 
   <!-- Apps -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosap" />
