@@ -3,7 +3,7 @@ Android Open Source Andromeda Project
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/aosap-tmp/platform_manifest.git -b eleven
+	repo init -u https://github.com/aosap/platform_manifest.git -b eleven
 
  Then to sync up:
 
