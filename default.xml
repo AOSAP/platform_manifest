@@ -10,7 +10,8 @@
 
   <remote name="aosap"
            fetch="https://github.com/AOSAP/" 
-           revision="eleven" />
+           revision="eleven"
+	   review="review.aosap.org" />
 
   <remote  name="github"
            fetch="https://github.com/" />
