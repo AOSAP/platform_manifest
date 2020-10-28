@@ -114,6 +114,7 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
