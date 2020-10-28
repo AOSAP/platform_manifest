@@ -138,6 +138,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <!-- Tools -->
   <remove-project name="platform/tools/metalava" />
