@@ -136,6 +136,7 @@
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
 
   <!-- Tools -->
   <remove-project name="platform/tools/metalava" />
