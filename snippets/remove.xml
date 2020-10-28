@@ -134,6 +134,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Messaging" />
 
   <!-- Tools -->
   <remove-project name="platform/tools/metalava" />
