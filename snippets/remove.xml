@@ -95,6 +95,7 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/update_engine" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
