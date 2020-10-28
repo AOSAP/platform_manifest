@@ -132,6 +132,7 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Contacts" />
 
   <!-- Tools -->
   <remove-project name="platform/tools/metalava" />
