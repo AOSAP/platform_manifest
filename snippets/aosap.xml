@@ -28,6 +28,7 @@
   <project path="system/libufdt" name="platform_system_libufdt" remote="aosap" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="aosap" />
   <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="aosap" />
+  <project path="system/vold" name="platform_system_vold" remote="aosap" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="aosap" />
