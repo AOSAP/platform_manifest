@@ -54,6 +54,7 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aosap" />
   <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="aosap" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="aosap" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_qcom_sepolicy_vndr" remote="aosap" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosap" />
