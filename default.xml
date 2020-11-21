@@ -24,11 +24,8 @@
            revision="eleven" />
 
   <remote name="los"
-           fetch="https://github.com/LineageOS/" />
-
-  <remote name="arrow"
-           fetch="https://github.com/ArrowOS/"
-           revision="refs/heads/arrow-11.0" />
+           fetch="https://github.com/LineageOS/" 
+           revision="lineage-18.0" />
 
   <remote  name="bb"
            fetch="https://bitbucket.org/mracar07"
