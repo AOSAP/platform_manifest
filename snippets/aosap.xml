@@ -82,6 +82,7 @@
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosap" />
   <project path="packages/modules/NetworkStack" name="platform_packages_modules_NetworkStack" remote="aosap" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="aosap" />
+  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="aosap" />
 
   <!-- Tools -->
   <project path="tools/metalava" name="platform_tools_metalava" remote="aosap" />
