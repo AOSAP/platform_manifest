@@ -64,6 +64,7 @@
   <project path="external/selinux" name="platform_external_selinux" remote="aosap" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosap" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="bb" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="aosap" />
 
   <!-- Apps -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosap" />
