@@ -25,7 +25,7 @@
 
   <remote name="los"
            fetch="https://github.com/LineageOS/" 
-           revision="lineage-18.0" />
+           revision="lineage-18.1" />
 
   <remote  name="bb"
            fetch="https://bitbucket.org/mracar07"
