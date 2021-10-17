@@ -25,4 +25,7 @@
  <!--Framework-->
   <project path="frameworks/base" name="private_fw" remote="aosap" />
 
+ <!--Tools-->
+  <project path="prebuilts/tools-aosap" name="platform_prebuilts_tools-aosap" remote="aosap" />
+
 </manifest>
