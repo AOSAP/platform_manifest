@@ -24,8 +24,25 @@
 
  <!--Framework-->
   <project path="frameworks/base" name="private_fw" remote="private" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosap" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosap" />
 
  <!--Tools-->
   <project path="prebuilts/tools-aosap" name="platform_prebuilts_tools-aosap" remote="aosap" />
+
+ <!--System-->
+  <project path="system/core" name="platform_system_core" remote="aosap" />
+
+ <!--External-->
+  <project path="external/selinux" name="platform_external_selinux" remote="aosap" />
+
+ <!--Main-->
+  <project path="bionic" name="platform_bionic" remote="aosap" />
+
+ <!--Bootable-->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosap" />
+
+ <!--Packages-->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosap" />
 
 </manifest>
