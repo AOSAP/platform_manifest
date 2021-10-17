@@ -19,6 +19,10 @@
            revision="twelve"
 	   review="review.aosap.org" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com/AOSAP/"
+           revision="twelve" />
+
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
 
