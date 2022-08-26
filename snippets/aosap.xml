@@ -48,4 +48,10 @@
  <project path="frameworks/base" name="platform_frameworks_base" remote="aosap" />
 
 
+ <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" remote="aosap"/>
+ <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosap" />
+ <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="aosap" />
+ <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="aosap" />
+
+
 </manifest>
