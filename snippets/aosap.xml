@@ -35,6 +35,7 @@
  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosap" />
  <project path="system/core" name="platform_system_core" remote="aosap" />
  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosap" />
+ <project path="system/libhidl" name="platform_system_libhidl" remote="aosap" />
  <project path="vendor/aosap" name="platform_vendor_aosap" remote="aosap" />
 
  <!-- GCC -->

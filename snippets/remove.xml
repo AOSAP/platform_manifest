@@ -55,6 +55,7 @@
 
 
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/libhidl" />
 
   <!--Extra -->
   <remove-project name="platform/external/mksh" />
