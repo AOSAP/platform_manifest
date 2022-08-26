@@ -45,6 +45,7 @@
  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
  <project path="frameworks/opt/aosapgear" name="platform_frameworks_opt_aosapgear" remote="aosap" />
+ <project path="frameworks/base" name="platform_frameworks_base" remote="aosap" />
 
 
 </manifest>

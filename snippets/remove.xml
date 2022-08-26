@@ -75,9 +75,9 @@
 <remove-project name="platform/system/tools/mkbootimg" />-->
 
 <!-- Framework 
-<remove-project name="platform/frameworks/av" />
+<remove-project name="platform/frameworks/av" /-->
 <remove-project name="platform/frameworks/base" />
-<remove-project name="platform/frameworks/native" />
+<!--remove-project name="platform/frameworks/native" />
 <remove-project name="platform/art" /> -->
 <remove-project name="platform/bionic" />
 <remove-project name="platform/bootable/recovery" />
