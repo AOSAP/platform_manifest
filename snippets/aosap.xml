@@ -34,6 +34,7 @@
  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosap" />
  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosap" />
  <project path="system/core" name="platform_system_core" remote="aosap" />
+ <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosap" />
  <project path="vendor/aosap" name="platform_vendor_aosap" remote="aosap" />
 
  <!-- GCC -->
