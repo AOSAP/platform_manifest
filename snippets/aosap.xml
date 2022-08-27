@@ -33,13 +33,24 @@
  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosap" />
  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aosap" revision="thirteen-caf" />
  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosap" />
+ <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="aosap" />
  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosap" />
  <project path="system/core" name="platform_system_core" remote="aosap" />
  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosap" />
  <project path="system/libhidl" name="platform_system_libhidl" remote="aosap" />
  <project path="system/vold" name="platform_system_vold" remote="aosap" />
  <project path="system/security" name="platform_system_security" remote="aosap" />
+ <project path="system/extras" name="platform_system_extras" remote="aosap" />
+ <project path="system/media" name="platform_system_media" remote="aosap" />
+ <project path="system/update_engine" name="platform_system_update_engine" remote="aosap" />
+ <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="aosap" />
  <project path="vendor/aosap" name="platform_vendor_aosap" remote="aosap" />
+ <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosap" />
+ <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="aosap" />
+ <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosap" />
+ <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="aosap" />
+ <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="aosap" />
+
 
  <!-- GCC -->
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aosap" clone-depth="1" />
@@ -49,12 +60,46 @@
 
  <project path="frameworks/opt/aosapgear" name="platform_frameworks_opt_aosapgear" remote="aosap" />
  <project path="frameworks/base" name="platform_frameworks_base" remote="aosap" />
-
+ <project path="frameworks/av" name="platform_frameworks_av" remote="aosap" />
+ <project path="frameworks/native" name="platform_frameworks_native" remote="aosap" />
 
  <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" remote="aosap"/>
  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosap" />
  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="aosap" />
  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="aosap" />
 
+ <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aosap" />
+ <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="aosap" />
+
+
+  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="aosap" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
 
 </manifest>
