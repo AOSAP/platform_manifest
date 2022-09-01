@@ -73,6 +73,7 @@
  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="aosap" />
 
  <project path="packages/apps/AndromedaSettings" name="platform_packages_apps_AndromedaSettings" remote="aosap" />
+ <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosap" />
 
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="aosap" >
     <!-- add guard for AOSP hardware/qcom dir -->
